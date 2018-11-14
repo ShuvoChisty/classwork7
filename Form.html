@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create a new article</title>
+    </head>
+    <body>
+        <h1>
+            New Article
+        </h1>
+        <input type="text" name="title"><br/><br/>
+        <textarea id="content" placeholder="content"></textarea><br>
+        <button id="submit">Submit</button>
+        <button id="article">Get Article</button>
+        <script
+                  src="https://code.jquery.com/jquery-3.3.1.js"
+                  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                  crossorigin="anonymous"></script>
+        <script>
+            var article = {title:"",content:""};
+            $('#submit').click(function(event){
+                article.title=$('#title').val();
+                article.content=$('#content').val();
+                $.ajax({
+                    method:"POST",
+                    url:"/article/create",
+                    data:article 
+                }).done(function(response){
+                    console.log(response.responseText);
+                }).fail(function(response){
+                    console.log(response.responseText);
+                });
+            });
+        </script>          
+    </body>
+</html>
