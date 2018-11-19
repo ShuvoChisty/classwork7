@@ -1,23 +1,26 @@
 {
-  "name": "newjsonproject",
+  "name": "cw8",
   "version": "1.0.0",
-  "description": "classwork",
-  "main": "NodeServer.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RashedMahmudRatul/NodeJS.git"
+    "url": "git+https://github.com/AkibSadmanee/First-Node-Server.git"
   },
-  "author": "",
+  "author": "Akib Sadmanee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RashedMahmudRatul/NodeJS/issues"
+    "url": "https://github.com/AkibSadmanee/First-Node-Server/issues"
   },
-  "homepage": "https://github.com/RashedMahmudRatul/NodeJS#readme",
+  "homepage": "https://github.com/AkibSadmanee/First-Node-Server#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10"
   },
   "devDependencies": {
     "nodemon": "^1.18.6"
