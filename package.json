@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AkibSadmanee/First-Node-Server.git"
+    "url": "https://github.com/ShuvoChisty/jsnodeserver"
   },
-  "author": "Akib Sadmanee",
+  "author": "ShuvoChisty",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AkibSadmanee/First-Node-Server/issues"
+    "urlhttps://github.com/ShuvoChisty/jsnodeserver"
   },
-  "homepage": "https://github.com/AkibSadmanee/First-Node-Server#readme",
+  "homepage": "https://github.com/ShuvoChisty/jsnodeserver",
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
